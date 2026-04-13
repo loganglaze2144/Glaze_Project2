@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Glazing Sports News | Scores, Highlights & Updates</title>
+  <meta name="description" content="Stay updated with Glazing Sports for latest scores, breaking news, player highlights, and analysis across major sports leagues.">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header>
+  <div class="header-container">
+
+    <h1 class="logo">GLAZING <span>SPORTS</span></h1>
+
+    <nav aria-label="Main Navigation">
+      <button id="menu-btn" aria-label="Toggle navigation menu">☰</button>
+
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category.html">Categories</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="article.html">Articles</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <h2>Latest Sports Coverage</h2>
+  <p>Scores, highlights, and breaking news</p>
+</section>
+
+<section class="grid">
+
+  <!-- COLLEGE FOOTBALL -->
+  <article>
+    <img src="images/collegefootball.jpg" alt="Players competing in a college football game" loading="lazy">
+    <h3><a href="article.html">College Football</a></h3>
+    <p>Top teams, rankings, and game highlights.</p>
+  </article>
+
+  <!-- NHL -->
+  <article>
+    <img src="images/nhl.jpg" alt="Professional NHL hockey game on ice" loading="lazy">
+    <h3><a href="article.html">NHL Hockey</a></h3>
+    <p>Scores, standings, and playoff races.</p>
+  </article>
+
+  <!-- HIGH SCHOOL FOOTBALL -->
+  <article>
+    <img src="images/highschoolfootball.jpg" alt="High school football players during a game" loading="lazy">
+    <h3><a href="article.html">High School Football</a></h3>
+    <p>Local games, rising talent, and highlights.</p>
+  </article>
+
+  <!-- OTHER CONTENT -->
+  <article>
+    <img src="images/NBA.jpg" alt="NBA basketball game action in arena" loading="lazy">
+    <h3><a href="article.html">NBA Coverage</a></h3>
+    <p>Highlights, trades, standings, and results.</p>
+  </article>
+
+  <article>
+    <img src="images/mlb.jpg" alt="MLB baseball game in stadium" loading="lazy">
+    <h3><a href="article.html">MLB Coverage</a></h3>
+    <p>Home runs, stats, and season updates.</p>
+  </article>
+
+  <article>
+    <img src="images/nfldraft.jpg" alt="NFL draft event with prospects on stage" loading="lazy">
+    <h3><a href="article.html">NFL Draft</a></h3>
+    <p>Prospects, reports, and predictions.</p>
+  </article>
+
+</section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Glazing Sports | All rights reserved</p>
+</footer>
+
+<script>
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("nav-links");
+
+btn.addEventListener("click", () => {
+  menu.classList.toggle("show");
+});
+</script>
+
+</body>
+</html>
