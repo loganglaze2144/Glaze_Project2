@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gallery | Glazing Sports</title>
+  <meta name="description" content="Explore the Glazing Sports gallery with top moments from football, basketball, hockey, baseball, and more.">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header>
+  <div class="header-container">
+
+    <h1 class="logo">GLAZING <span>SPORTS</span></h1>
+
+    <nav aria-label="Main Navigation">
+      <button id="menu-btn" aria-label="Toggle navigation menu">☰</button>
+
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category.html">Categories</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="article.html">Articles</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <h2>Sports Gallery</h2>
+  <p>Top moments from across all levels of sports</p>
+</section>
+
+<section class="grid">
+
+  <!-- COLLEGE FOOTBALL -->
+  <figure>
+    <img src="images/collegefootball.jpg" alt="Players competing in a college football game" loading="lazy">
+    <figcaption>College Football Highlights</figcaption>
+  </figure>
+
+  <!-- NHL -->
+  <figure>
+    <img src="images/nhl.jpg" alt="Professional NHL hockey game on ice" loading="lazy">
+    <figcaption>NHL Action</figcaption>
+  </figure>
+
+  <!-- HIGH SCHOOL FOOTBALL -->
+  <figure>
+    <img src="images/highschoolfootball.jpg" alt="High school football players during a game" loading="lazy">
+    <figcaption>High School Football</figcaption>
+  </figure>
+
+  <!-- NBA -->
+  <figure>
+    <img src="images/NBA.jpg" alt="NBA basketball game action in arena" loading="lazy">
+    <figcaption>NBA Moments</figcaption>
+  </figure>
+
+  <!-- NFL -->
+  <figure>
+    <img src="images/football.jpg" alt="NFL football game in a stadium" loading="lazy">
+    <figcaption>NFL Coverage</figcaption>
+  </figure>
+
+  <!-- MLB -->
+  <figure>
+    <img src="images/mlb.jpg" alt="MLB baseball game in stadium" loading="lazy">
+    <figcaption>MLB Highlights</figcaption>
+  </figure>
+
+  <!-- NFL DRAFT -->
+  <figure>
+    <img src="images/nfldraft.jpg" alt="NFL draft event with prospects on stage" loading="lazy">
+    <figcaption>NFL Draft</figcaption>
+  </figure>
+
+</section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Glazing Sports | All rights reserved</p>
+</footer>
+
+<script>
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("nav-links");
+
+btn.addEventListener("click", () => {
+  menu.classList.toggle("show");
+});
+</script>
+
+</body>
+</html>
